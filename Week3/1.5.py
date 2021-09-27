@@ -106,9 +106,10 @@ def feature_mapped_logistic_regression(l, data_train, data_test):
 if __name__ == '__main__':
     train = 'train'
     test = 'test'
-
-    data_train = read_directory(train)
-    data_test = read_directory(test)
+    
+    data_train = read_directory(train) #训练集数据
+    
+    data_test = read_directory(test) #测试集数据
 
     l = 1 #惩罚系数
     feature_mapped_logistic_regression(l, data_train, data_test)
