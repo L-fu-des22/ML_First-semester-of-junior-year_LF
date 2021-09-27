@@ -112,4 +112,3 @@ if __name__ == '__main__':
 
     l = 1 #惩罚系数
     feature_mapped_logistic_regression(l, data_train, data_test)
-```
